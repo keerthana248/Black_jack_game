@@ -1,2 +1,2 @@
-# Black_jack_game
-Created with CodeSandbox
+# blackJack
+blackJack Gaming website

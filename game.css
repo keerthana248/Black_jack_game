@@ -1,0 +1,73 @@
+* {
+  color: white;
+}
+.logo {
+  width: 50%;
+}
+
+body {
+  font-size: 20px;
+  text-align: center;
+  background-color: #0b173b;
+}
+
+h2 {
+  color: goldenrod;
+  font-family: Georgia, serif;
+}
+p {
+  margin: 20px;
+  font-size: 30px;
+  font-family: Georgia, serif;
+  padding: 5px;
+}
+.container {
+  margin: 0;
+}
+.float-game-container {
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  padding: 80px;
+}
+
+.float-dealer {
+  width: 50%;
+  margin: 10px 3%;
+  padding: 5px;
+  float: left;
+  text-align: start;
+  box-sizing: border-box;
+  border: 5px solid #dba901;
+}
+button {
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  background-color: goldenrod;
+  border: 1px solid gold;
+  color: #016f32;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: gold;
+}
+.inactive {
+  position: absolute;
+  left: -1000px;
+}
+img {
+  width: 70px;
+  margin: 0 5px;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+}
+#start,
+#add,
+#hold {
+  font-family: Georgia, serif;
+}
